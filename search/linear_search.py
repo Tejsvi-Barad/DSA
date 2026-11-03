@@ -10,7 +10,7 @@ search = int(input("enter data:"))
 result = linear_search(data,search)
 print(data)
 
-if search == data :
+if result == -1 :
     print("data not found")
 else:
     print("data found at index:",result)
